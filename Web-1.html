@@ -1,0 +1,458 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WelcomeToMNC</title>
+</head>
+
+<style>
+     
+        html{
+            scroll-behavior: smooth;
+        }
+    
+    body{
+        
+        background-image:  url(https://img4.goodfon.com/wallpaper/nbig/c/b1/ingredients-spices-condiments.jpg);
+        background-size: contain;
+        
+        background-position: scroll;
+    }
+    
+    .navbar{
+        margin-left:100px;
+        margin-top: 30px;
+        width: 100%;
+        float:right;
+         overflow:hidden;
+         position:fixed;
+         top:0;
+        
+
+    }
+    .navbar ul li{
+      float:left;
+      text-align: center;
+      font-size :25px;
+      padding-left: 50px;
+      font-weight: bold;
+
+
+    }
+    a{
+        text-decoration: none;
+        color:goldenrod;
+        padding-right: 40px;
+        
+        
+    }
+
+    .navbar ul li:hover{
+        background-color: black; 
+    }
+    a:hover{
+        color:white; 
+    }
+    .logo img{
+        width:50px;
+        height:50px;
+    }
+    .logo h5{
+        font-size: x-large;
+        font-style: italic;
+        font-weight:30px;
+        margin-top: 0px;
+        color:whitesmoke;
+    }
+    .logo h5:hover{
+        color:goldenrod;
+    }
+   
+    .oneHome{
+        width:400px;
+        height:500px;
+        background-color:black;
+        opacity:0.9;
+        margin-top: 80px;
+    }
+    .oneHome img{
+        height: 400px;
+        width:400px;
+        border: lightsalmon 4px double;
+        border-radius: 10px;
+    }
+    .oneHome h2{
+        font-size: xx-large;
+        font-style:normal ;
+        color:ghostwhite;
+        text-shadow:hotpink;
+        text-align: justify;
+        padding-top: 10px;
+        padding-left:50px ;
+        font-weight: lighter;
+    }
+     
+  .Home> div{
+      float:left;
+      margin-bottom: 300px;
+  }
+  .twoHome{
+      padding-top: 50px;
+      padding-left:200px;
+      margin: 100px;
+      text-align: center;
+     
+      
+
+  }
+  .twoHome>h2{
+      font-size: 45px;
+      text-shadow: 5px 5px 10px black;
+      font-weight: bolder;
+      color:hotpink;
+      border:3px solid gray;
+      background-color: grey;
+       
+      
+       
+  }
+  .twoHome>h1{
+    font-style: oblique;
+    font-size:50px;
+    text-shadow: 2px 2px 2px black;
+    color:whitesmoke;
+
+  }
+ 
+  .twoHome>button{
+     text-align:center;
+     border:20px double;
+     width:480px;
+     height:80px;
+     font-size: x-large;
+      
+   }
+   .twoHome>button>a{
+       color:black;
+      
+   }
+   .twoHome>button>a:hover{
+       color:goldenrod;
+   }
+   .Specialities{
+    background-color: lightpink;
+     
+   }
+   .Recommendations{
+       background-color: white;;
+   }
+    
+   .Specialities{
+    margin:700px 200px 200px 200px;
+       padding:20px;
+       border:ivory;
+       border-radius: 10px;
+
+   }
+  
+   .Recommendations{
+       margin:800px 100px 200px 100px;
+       padding:20px;
+       border:ivory;
+       border-radius: 10px;
+       
+   }
+   .Reviews, .Contact{
+    margin:400px;
+       padding:20px;
+       border:ivory;
+       border-radius: 10px;
+   }
+    
+   .Reviews, .Contact{
+       float:left;
+     
+   }
+   .Specialities ul li img, .Recommendations ul li img{
+    float:left;
+       width:250px;
+       height:250px;
+       margin:20px;
+       border:5px solid green;
+        
+
+
+   }
+   .Specialities>h1, .Recommendations>h1{
+    text-align: center;
+       color: black;
+       font-size: xx-large;
+
+   }
+    
+    .Reviews>h1{
+       text-align: center;
+       color: lightgray;
+       font-size: xx-large;
+   }
+   .Recommendations>p, .Reviews>p, .Contact>p{
+       text-align: center;
+       color: lightgray;
+       font-size:x-large;
+   }
+   .Specialities>p {
+    text-align:start;
+       color: lightgray;
+       font-size:x-large;
+   }
+   
+  
+    
+    
+   .Reviews>h1,p{
+    background-color: black;
+    text-align: center;
+     
+   }
+
+  
+   .search>img{
+        
+       top:6px;
+       left:8px;
+       width:14px;
+   }
+   .search{
+       border:1px solid grey;
+       border-radius:6px;
+       width:98%;
+       height:20px;
+       padding:2px 10px 2px 10px;
+       
+       outline:0;
+   }
+   .search:hover, .search:focus{
+       border: 2px double goldenrod;
+        
+
+   }
+   .search input[type="search"]{
+       color:black;
+   }
+   .box{
+       border:10px solid green;
+       float:left;
+       margin:20px;
+   }
+  .box p{
+      color:whitesmoke;
+  }
+  fieldset {
+ width: 550px;
+ margin-top: 20px;
+ border: 10px double gray;
+ background-color: #fffdd0;
+ font-size:x-large;
+ color:goldenrod;
+ 
+  }
+ legend {
+ font-style:italic;
+ font-weight: bolder;
+ color:goldenrod;
+ font-size: 80px;
+ text-align: center;}
+ .Reviews input[type="text"] {
+ width: 200px;
+  
+ border: 2px solid rosybrown;
+ padding: 2px;
+ outline: none;
+ color:black;
+
+ 
+ }
+  
+ .Reviews input[type="email"]{
+     color:black;
+ }
+ .Reviews textarea:focus,
+ input[type="text"]:hover {
+ width: 380px;
+color:black;
+ background-color: #d0e2f0;
+ border: 1px solid #999;
+  
+ }
+ .Reviews button{
+ border: 1px solid #006633;
+ background-color: #009966;
+ color: greenyellow;
+ border-radius: 5px;
+ padding: 5px;
+margin-left:250px;
+ margin-top: 10px;}
+  .Reviews button:hover {
+ border: 1px solid #006633; 
+ 
+  
+ color: #FFFFFF;
+ cursor: pointer;
+ }
+ .Contact>h3{
+     color:green;
+     text-align: center;
+     
+ 
+ }
+ .Contact>h1{
+    text-align: center;
+       color: palevioletred;
+       font-size: xx-large;
+ }
+ .Contact>h3>a{
+    border:2px double gray;
+    text-align: center;
+    padding-left:40px;
+    background-color:black;
+ }
+ .Contact>h3:hover{
+     color:white;
+     text-align: center;
+ }
+ .Contact{
+     margin-right:400px;
+     padding-left:400px;
+     padding-right:300px;
+     padding-top:200px;
+     padding-left: 300px;;
+     background-color: cornsilk;
+ }
+ .Contact>ul>li, .Contact>ul>a{
+     float:left;
+     margin:10px;
+      
+ }
+ .terms>a{
+ color:red;
+ border:1px black;
+ padding-left:0px;
+ }
+ .terms>a:hover{
+     color:white;
+ }
+  
+</style>
+</head>
+<body>
+    <div class="intro" id="intro">
+<div class="navbar">
+
+<ul type="none">
+   <li><a href="#Home">Home</a></li>
+   <li><a href="#Specialities">Specialities</a></li>
+   <li><a href="#Recommendations">Recommendations</a></li>
+   <li><a href="#Reviews">Reviews</a></li>
+   <li><a href="#Contact">Contact</a></li>
+</ul>
+</div>
+
+<div class="logo">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXH_IC3lOUg4C9ATNL7jv0b_8-JU3HowIWxQ&usqp=CAU" alt="LDO"/>
+ 
+<h5>MNC</h5>
+</div>
+</div>
+<div class="Home" id="Home">
+    <div class="oneHome">
+     <img src="https://imgmedia.lbb.in/media/2021/01/5ff7f6de58034d451cf7e13b_1610086110177.jpg" alt="Our Restaurant">
+     <h2>WELCOME TO MNC</h2>
+    </div>
+
+    <div class="twoHome">
+      <h2>MidNight Cravings</h2>
+      <h1>Have a great cheat day meal!!!</h1>
+      <button type="button"><a href="#Specialities" > Check out our Specialities</a></button>
+    </div>
+     </div>
+<div class="Specialities" id="Specialities">
+     
+    <h1>OUR SPECIALITIES</h1>
+    <p>Do check our specialities. Grow your hunger. Take a taste. And make your life delicious.</p>
+    <ul type="none">
+        <li> <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-1036880806.jpg?crop=0.6666666666666666xw:1xh;center,top&resize=640:*" alt="Eggy Teggy" title="Eggy Teggy"> 
+             
+            </li>
+        
+        <li><img src="https://cravinghomecooked.com/wp-content/uploads/2020/06/butter-chicken-1.jpg" alt="Butter Chicken" title="Butter Chicken"></li>
+        <li><img src="https://www.recipes.com.au/sites/default/files/150002BW-COCONUT-AND-BERRY-PANCAKES.jpg" alt="Creamy Coconut Pancake" title="Creamy Coconut Pancake"></li>
+        
+        
+       
+        <li><img src="https://assets.epicurious.com/photos/5732526f1877f76a0e20831c/master/pass/EP_05102016_PeruvianStyleRoastChicken_recipe_.jpg" alt="Roasted Chicken" title="Roasted Chicken"></li>
+        <li><img src="https://www.kosher.com/resized/details.slide/5/_/5_minute_yummy_chicken_2_shutterstock.jpg" a;t="Yummy Chicken" title="Yummy Chicken"></li>
+        
+        </ul>
+</div>
+
+<div class="Recommendations" id="Recommendations">
+    <h1>RECOMMENDATIONS</h1>
+    <p>Here are some of our Recommendations. Have a look!!!</p>
+    <div class="search">
+        <img src="https://st.depositphotos.com/1041273/3800/v/950/depositphotos_38005243-stock-illustration-vector-magnifying-glass.jpg" >
+
+    <input type="search" name="Search" placeholder="Search a food item">
+
+    </div>
+    <ul type="none">
+        <li><img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg?quality=90&resize=700%2C636" alt="Cauli Bake" title="Cauli Bake"></li>
+        <li><img src="https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/BQsT1ofWd90Isi3KZuhi47dgsWM=/1660x934/smart/filters:no_upscale()/cloudfront-us-east-1.images.arcpublishing.com/dmn/BXKYHCYJQ5AN5IOCBOZE6SHVGY.JPG" alt="Lasagna" title="Lasagna"></li>
+        <li><img src="https://www.recipes.com.au/sites/default/files/150002BW-COCONUT-AND-BERRY-PANCAKES.jpg" alt="Creamy Coconut Pancake" title="Creamy Coconut Pancake"></li>
+        <li><img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2020/07/dosa-recipe-500x500.jpg" alt="Masala Dosa" title="Masala Dosa"></li>
+        <li><img src="https://cravinghomecooked.com/wp-content/uploads/2020/06/butter-chicken-1.jpg" alt="Butter Chicken" title="Butter Chicken"></li>
+        <li><img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2020/07/dosa-recipe-500x500.jpg" alt="Plain Dosa" title="Plain Dosa"></li>
+         
+        <li><img src="https://assets.epicurious.com/photos/5732526f1877f76a0e20831c/master/pass/EP_05102016_PeruvianStyleRoastChicken_recipe_.jpg" alt="Roasted Chicken" title="Roasted Chicken"></li>
+        <li><img src="https://www.kosher.com/resized/details.slide/5/_/5_minute_yummy_chicken_2_shutterstock.jpg" a;t="Yummy Chicken" title="Yummy Chicken"></li>
+        </ul>
+</div>
+ 
+<div class="Reviews" id="Reviews">
+    <h1 >REVIEWS</h1> 
+    <p>Here are some of our top reviews.<p>
+        <ul type="none">
+        <div class="box"><li><img id="p1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB_h_j0L3sNas2PZvYfFSmIoIt4c9aob8Vxw&usqp=CAU" alt="John Dalton" title="John Dalton"><p>John Dalton   <img src="http://cdn.shopify.com/s/files/1/1061/1924/products/Star_Emoji_grande.png?v=1571606063" alt="star" title="star" width="2%" height="2%"><img src="http://cdn.shopify.com/s/files/1/1061/1924/products/Star_Emoji_grande.png?v=1571606063" alt="star" title="star" width="2%" height="2%"><img src="http://cdn.shopify.com/s/files/1/1061/1924/products/Star_Emoji_grande.png?v=1571606063" alt="star" title="star" width="2%" height="2%"><img src="http://cdn.shopify.com/s/files/1/1061/1924/products/Star_Emoji_grande.png?v=1571606063" alt="star" title="star" width="2%" height="2%"><br/>Great service and delicious food!!!</p></li></div>
+        <div class="box"><li><img id="p2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr0D115VJI6KOVlti7jejubdhPXhd9vf_EOg&usqp=CAU" alt="Marie Curie" title="Marie Curie"><p>Marie Curie  <img src="http://cdn.shopify.com/s/files/1/1061/1924/products/Star_Emoji_grande.png?v=1571606063" alt="star" title="star" width="2%" height="2%"><img src="http://cdn.shopify.com/s/files/1/1061/1924/products/Star_Emoji_grande.png?v=1571606063" alt="star" title="star" width="2%" height="2%"><img src="http://cdn.shopify.com/s/files/1/1061/1924/products/Star_Emoji_grande.png?v=1571606063" alt="star" title="star" width="2%" height="2%"><img src="http://cdn.shopify.com/s/files/1/1061/1924/products/Star_Emoji_grande.png?v=1571606063" alt="star" title="star" width="2%" height="2%"><img src="http://cdn.shopify.com/s/files/1/1061/1924/products/Star_Emoji_grande.png?v=1571606063" alt="star" title="star" width="2%" height="2%"><br/>Excellent food and attentive service... </p></li></div>
+        <form action="" method="POST">
+        <div class="urReview">
+             <fieldset>
+                 <legend>Your Review</legend>
+                 <label>Name: <input type="text" name="name" placeholder="Your Name" required="required"/></label><br/><br/><br/><br/><br/>
+                 <label>Email: <input type="email" name="email" placeholder="Your email id" required="required"></label><br/><br/><br/><br/><br/>
+                 <label>Your Review:<br/><br/> <textarea name="Reviews" cols="50" rows="5" placeholder="Type out your opinion..." required="required"></textarea></label><br/><br/><br/><br/><br/>
+                 <button type="button">Submit </button>
+
+             </fieldset>
+         </div>
+        </form> 
+    </ul>
+</div>
+<div class="Contact" id="Contact">
+<h1>MidNight Cravings</h1>
+<p>To get more Information Please call & Email us:</p>
+<h3>9900099007</h3>
+<h3>midnightcravings@gmail.com</h3>
+<ul type="none">
+    
+    <li> <a href="https://www.facebook.com/trisplanetrestaurant/" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWHNqSKP0g_42wo-gQv1azrnztIYv1RbZKnQ&usqp=CAU" alt="Facebook link" title="Facebook link" height="40px" width="40px"></a></li>
+    <li><a href="https://www.instagram.com/info.trisplanet/" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1KIdftGUZxorDVV3bHZMe3a0BDGH6wm9L4Q&usqp=CAU" alt="Instagram link" title="Instagram link" height="40px" width="40px"></a></li>
+</ul>
+<br/><br/><br/>
+<h3><a href="#intro">Back-to-top</a></h3>
+<br/>
+<br/>
+<div class="terms">
+<a href="https://thewaterfrontrestaurant.net/terms-and-conditions/"  target="_blank">Terms and Conditions---Privacy Policy</a>
+</div>
+</div>
+</body>
+</html>
